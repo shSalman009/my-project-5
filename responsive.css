@@ -1,0 +1,149 @@
+
+
+@media(max-width:1400px){
+    html{
+        font-size: 55%;
+    }
+    .banner-content {
+        margin-top: 10rem;
+        width: 80%;
+    }
+    .about-img{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+@media(max-width:1200px){
+    .nav-btn a {
+        padding: 1rem 1rem;
+    }
+    .navbar-collapse ul li a {
+
+        padding: 0rem 1.1rem;
+
+    }
+    html{
+        font-size: 50%;
+    }
+    .banner-content {
+        margin-top: 10rem;
+        width: 50%;
+    }
+    .banner-btn > a {
+        line-height: 2.5rem;
+    }
+}
+
+
+
+
+@media(max-width:992px){
+    .navbar-brand {
+        width: 100%;
+        line-height: 60px;
+        text-align: center;
+    }
+    .nav-btn {
+        position: absolute;
+        right: 0;
+        bottom: 12px;
+        width: 70%;
+    }
+    html{
+        font-size: 45%;
+    }
+    .banner-content p {
+  color: #ddd;
+    }
+    .banner-section::after{
+        content:"";
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+    .banner-content {
+        width: 100%;
+        margin: 2rem auto;
+        text-align: center;
+    }
+    .banner-content p {
+        color: #777;
+    }
+    .banner-btn {
+        display: flex;
+        justify-content: center;
+    }
+    .banner-btn > a {
+        padding: 1rem 3rem;
+    }
+    .portfolio-item{
+        max-width: 450px;
+        margin: auto;
+    }
+    .input-form form input {
+        width: 45%;
+        margin-top: 9rem;
+    }
+    .input-form form input {
+        position: relative;
+        bottom: 2rem;
+    }
+    .input-form form button {
+        position: relative;
+        background: #ff695f;
+        right: 0rem;
+        top: 1.8rem;
+        width: 100%;
+    }
+    .footer-search input {
+
+        width: 100%;
+    }
+    .banner-section {
+        height: 45vh;
+        top: 15rem;
+    }
+    .service-section {
+        padding-top: 0px;
+        position: relative;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+   html{
+       font-size: 40%;
+   } 
+}
+
+
+
+
+
+@media(max-width:576px){
+    .banner-section::before{
+        content: url(img/baner-dec-left.png);
+        width: 100%;
+        background-attachment: fixed;
+        position: absolute;
+        left: 0;
+        top: 0;}
+        html{
+            font-size: 35%;
+        } 
+}
+
